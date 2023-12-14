@@ -30,7 +30,7 @@ const Missing = () => {
           focus:ring-indigo-200
           focus:ring-opacity-50
         "
-              placeholder="John cooks"
+              placeholder="Enter a valid name"
             />
           </label>
         </div>
@@ -105,7 +105,7 @@ const Missing = () => {
         </div>
         <div className="mb-2">
           <label>
-            <span className="text-white">Tell Us your Complain</span>
+            <span className="text-white">Explanation field</span>
             <textarea
               name="message"
               className="
@@ -120,6 +120,7 @@ const Missing = () => {
           focus:ring-indigo-200
           focus:ring-opacity-50
         "
+        placeholder="Explain to us your how and why"
             ></textarea>
           </label>
         </div>
